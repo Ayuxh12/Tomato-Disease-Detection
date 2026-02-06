@@ -1,36 +1,43 @@
-# Leaf Disease Detection
+# Tomato Disease Detection
 
-This is a dashboard for detecting leaf diseases using a pre-trained AI model.
+This is a simple dashboard for detecting tomato leaf diseases using AI.
 
 ## Prerequisites
-1. Python 3.10 or higher (Make sure to check "Add Python to PATH" during installation).
+1. Python 3.10+ (Make sure to check "Add Python to PATH" when installing).
 2. Git.
 
 ## How to Run (Windows)
 
-Open your Command Prompt (cmd) or Terminal and run the following commands in order:
+Open your Command Prompt (cmd) or Terminal and run these commands one by one:
 
-1. Download the repository:
-   git clone https://github.com/Ayuxh12/Tomato-Disease-Detection.git
+**Step 1: Download the code**
 
-2. Enter the project folder:
-   cd Tomato-Disease-Detection
+```bash
+git clone [https://github.com/Ayuxh12/Tomato-Disease-Detection.git](https://github.com/Ayuxh12/Tomato-Disease-Detection.git)
 
-3. Create a virtual environment:
-   python -m venv venv
+Step 2: Enter the project folder
+Bash
 
-4. Activate the environment:
-   .\venv\Scripts\activate
+cd Tomato-Disease-Detection
 
-5. Install the required libraries:
-   pip install -r requirements.txt
+Step 3: Create a virtual environment
+Bash
 
-6. Run the application:
-   streamlit run app.py
+python -m venv venv
 
-The application will open automatically in your web browser.
+Step 4: Activate the environment
+Bash
 
-## Troubleshooting
+.\venv\Scripts\activate
 
-- If "python" is not recognized: Reinstall Python and ensure you check the box "Add Python to environment variables/PATH".
-- If "streamlit" is not recognized: Ensure you activated the virtual environment (Step 4) before running the install command.
+Step 5: Install the libraries
+Bash
+
+pip install -r requirements.txt
+
+Step 6: Run the app
+Bash
+
+streamlit run app.py
+
+The app will open automatically in your browser.
