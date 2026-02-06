@@ -9,35 +9,29 @@ This is a simple dashboard for detecting tomato leaf diseases using AI.
 ## How to Run (Windows)
 
 Open your Command Prompt (cmd) or Terminal and run these commands one by one:
-
-**Step 1: Download the code**
-
 ```bash
+Step 1: Download the code
 git clone [https://github.com/Ayuxh12/Tomato-Disease-Detection.git](https://github.com/Ayuxh12/Tomato-Disease-Detection.git)
 
-Step 2: Enter the project folder
-Bash
 
+Step 2: Enter the project folder
 cd Tomato-Disease-Detection
 
-Step 3: Create a virtual environment
-Bash
 
+Step 3: Create a virtual environment
 python -m venv venv
 
-Step 4: Activate the environment
-Bash
 
+Step 4: Activate the environment
 .\venv\Scripts\activate
 
-Step 5: Install the libraries
-Bash
 
+Step 5: Install the libraries
 pip install -r requirements.txt
 
-Step 6: Run the app
-Bash
 
+Step 6: Run the app
 streamlit run app.py
+
 
 The app will open automatically in your browser.
